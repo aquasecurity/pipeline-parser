@@ -1,9 +1,9 @@
 package job
 
 import (
-	gitlabModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	gitlabModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func parseDependencies(job *gitlabModels.Job) []*models.JobDependency {

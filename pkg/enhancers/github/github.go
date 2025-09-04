@@ -1,8 +1,8 @@
 package github
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 type GitHubEnhancer struct{}

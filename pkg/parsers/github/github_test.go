@@ -3,11 +3,11 @@ package github
 import (
 	"testing"
 
-	loadersCommonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	loadersCommonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"github.com/r3labs/diff/v3"
 	"github.com/stretchr/testify/assert"
 )

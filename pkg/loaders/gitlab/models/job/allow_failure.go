@@ -3,9 +3,9 @@ package job
 import (
 	"errors"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/utils"
-	commonUtils "github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/utils"
+	commonUtils "github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"gopkg.in/yaml.v3"
 )
 

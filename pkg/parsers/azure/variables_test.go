@@ -3,9 +3,9 @@ package azure
 import (
 	"testing"
 
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
 )
 
 func TestParseVariables(t *testing.T) {

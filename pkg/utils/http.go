@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 	"github.com/imroc/req/v3"
 )
 

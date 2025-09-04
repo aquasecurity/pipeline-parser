@@ -3,12 +3,12 @@ package azure
 import (
 	"strings"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	loadersCommonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	parserUtils "github.com/argonsecurity/pipeline-parser/pkg/parsers/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	loadersCommonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	parserUtils "github.com/aquasecurity/pipeline-parser/pkg/parsers/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"golang.org/x/exp/slices"
 )
 

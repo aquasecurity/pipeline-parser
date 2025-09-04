@@ -4,9 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	commonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	commonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
 	"github.com/r3labs/diff/v3"
 )
 

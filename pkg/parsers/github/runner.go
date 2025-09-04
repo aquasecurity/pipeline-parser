@@ -1,9 +1,9 @@
 package github
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
 )
 
 func parseRunsOnToRunner(runsOn *githubModels.RunsOn) *models.Runner {

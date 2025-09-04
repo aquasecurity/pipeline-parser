@@ -3,7 +3,7 @@ package models
 import (
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
 	"github.com/r3labs/diff/v3"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/yaml.v3"

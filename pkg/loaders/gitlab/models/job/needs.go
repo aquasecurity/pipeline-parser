@@ -1,7 +1,7 @@
 package job
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
 	"gopkg.in/yaml.v3"
 )
 

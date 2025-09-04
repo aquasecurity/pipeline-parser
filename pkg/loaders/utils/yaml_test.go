@@ -3,8 +3,8 @@ package utils
 import (
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 )
 

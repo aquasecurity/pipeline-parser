@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 func TestDetectVersionType(t *testing.T) {

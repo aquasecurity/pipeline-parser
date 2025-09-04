@@ -1,9 +1,9 @@
 package github
 
 import (
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 const (

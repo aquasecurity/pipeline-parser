@@ -1,15 +1,15 @@
 package handler
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers"
-	azureEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/azure"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders"
-	azureLoader "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure"
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/parsers"
-	azureParser "github.com/argonsecurity/pipeline-parser/pkg/parsers/azure"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers"
+	azureEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/azure"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders"
+	azureLoader "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/parsers"
+	azureParser "github.com/aquasecurity/pipeline-parser/pkg/parsers/azure"
 )
 
 type AzureHandler struct{}

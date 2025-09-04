@@ -1,6 +1,6 @@
 package blackbox
 
-import "github.com/argonsecurity/pipeline-parser/pkg/models"
+import "github.com/aquasecurity/pipeline-parser/pkg/models"
 
 type TestCase struct {
 	Filename    string

@@ -3,7 +3,7 @@ package triggers
 import (
 	"regexp"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 // Variable Expressions are GitLab's way to filter according to variable values.

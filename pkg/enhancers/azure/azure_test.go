@@ -3,11 +3,11 @@ package azure
 import (
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"github.com/stretchr/testify/assert"
 )
 

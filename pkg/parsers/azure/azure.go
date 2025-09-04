@@ -1,9 +1,9 @@
 package azure
 
 import (
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 type AzureParser struct{}

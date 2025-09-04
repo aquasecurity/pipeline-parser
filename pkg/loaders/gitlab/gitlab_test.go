@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/job"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/job"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
 	"github.com/r3labs/diff/v3"
 )
 

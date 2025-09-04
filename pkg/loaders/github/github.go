@@ -1,7 +1,7 @@
 package github
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
 	"gopkg.in/yaml.v3"
 )
 

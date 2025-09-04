@@ -3,11 +3,11 @@ package job
 import (
 	"strconv"
 
-	gitlabModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/parsers/gitlab/common"
-	"github.com/argonsecurity/pipeline-parser/pkg/parsers/gitlab/triggers"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	gitlabModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/parsers/gitlab/common"
+	"github.com/aquasecurity/pipeline-parser/pkg/parsers/gitlab/triggers"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func ParseJobs(gitlabCIConfiguration *gitlabModels.GitlabCIConfiguration) ([]*models.Job, error) {

@@ -3,11 +3,11 @@ package azure
 import (
 	"testing"
 
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	loadersCommonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	loadersCommonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"github.com/stretchr/testify/assert"
 )
 

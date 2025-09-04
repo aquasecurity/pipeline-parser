@@ -1,8 +1,8 @@
 package utils
 
 import (
-	commonLoaderModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	commonLoaderModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 func ParseMapToParameters(mapNode commonLoaderModels.Map) []*models.Parameter {

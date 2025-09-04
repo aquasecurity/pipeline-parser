@@ -3,7 +3,7 @@ package consts
 import (
 	"fmt"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 type ErrInvalidPlatform struct {

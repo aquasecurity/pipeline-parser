@@ -1,8 +1,8 @@
 package general
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers/general/config"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers/general/config"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 var (

@@ -1,16 +1,16 @@
 package handler
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers"
-	generalEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/general"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders"
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	bitbucketModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket/models"
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
-	gitlabModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/parsers"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers"
+	generalEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/general"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	bitbucketModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
+	gitlabModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/parsers"
 )
 
 type Handler[T any] interface {

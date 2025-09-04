@@ -1,7 +1,7 @@
 package gitlab
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models"
 	"gopkg.in/yaml.v3"
 )
 

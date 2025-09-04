@@ -8,11 +8,11 @@ import (
 	"sort"
 	"testing"
 
-	azureEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/azure"
-	githubEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/github"
-	gitlabEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/gitlab"
-	"github.com/argonsecurity/pipeline-parser/pkg/handler"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	azureEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/azure"
+	githubEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/github"
+	gitlabEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/gitlab"
+	"github.com/aquasecurity/pipeline-parser/pkg/handler"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 	"github.com/go-test/deep"
 )
 

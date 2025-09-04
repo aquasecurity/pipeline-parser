@@ -1,9 +1,9 @@
 package general
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers/general/config"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers/general/config"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func enhanceStep(step *models.Step, config *config.EnhancementConfiguration) *models.Step {

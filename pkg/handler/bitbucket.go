@@ -1,15 +1,15 @@
 package handler
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers"
-	bitbucketEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/bitbucket"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders"
-	bitbucketLoader "github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket"
-	bitbucketModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/parsers"
-	bitbucketParser "github.com/argonsecurity/pipeline-parser/pkg/parsers/bitbucket"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers"
+	bitbucketEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/bitbucket"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders"
+	bitbucketLoader "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket"
+	bitbucketModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/parsers"
+	bitbucketParser "github.com/aquasecurity/pipeline-parser/pkg/parsers/bitbucket"
 )
 
 type BitbucketHandler struct{}

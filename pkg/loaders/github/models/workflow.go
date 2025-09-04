@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 type Container struct {

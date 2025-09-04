@@ -1,8 +1,8 @@
 package azure
 
 import (
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 func parseVariables(variables *azureModels.Variables) *models.EnvironmentVariablesRef {

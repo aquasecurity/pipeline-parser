@@ -1,10 +1,10 @@
 package common
 
 import (
-	gitlabModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	parsersUtils "github.com/argonsecurity/pipeline-parser/pkg/parsers/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	gitlabModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	parsersUtils "github.com/aquasecurity/pipeline-parser/pkg/parsers/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func ParseRunner(image *gitlabModels.Image) *models.Runner {

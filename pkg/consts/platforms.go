@@ -1,6 +1,6 @@
 package consts
 
-import "github.com/argonsecurity/pipeline-parser/pkg/models"
+import "github.com/aquasecurity/pipeline-parser/pkg/models"
 
 const (
 	GitHubPlatform    models.Platform = "github"

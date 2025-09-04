@@ -3,9 +3,9 @@ package bitbucket
 import (
 	"fmt"
 
-	bitbucketModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	bitbucketModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func parseJobs(pipeline *bitbucketModels.Pipeline) []*models.Job {

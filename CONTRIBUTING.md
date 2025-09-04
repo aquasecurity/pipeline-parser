@@ -13,7 +13,7 @@ Thank you for taking an interest in contributing to pipeline-parser !
 
 If you think you have found a bug please follow the instructions below.
 
-- Open a [new bug](https://github.com/argonsecurity/pipeline-parser/issues/new?assignees=&labels=&template=bug_report.md) if a duplicate doesn't already exist.
+- Open a [new bug](https://github.com/aquasecurity/pipeline-parser/issues/new?assignees=&labels=&template=bug_report.md) if a duplicate doesn't already exist.
 - Make sure to give as much information as possible in the following questions
   - Overview
   - How did you use pipeline-parser?
@@ -26,7 +26,7 @@ If you think you have found a bug please follow the instructions below.
 
 We also use the GitHub discussions to track feature requests. If you have an idea to make pipeline-parser even more awesome follow the steps below.
 
-- Open a [new discussion](https://github.com/argonsecurity/pipeline-parser/discussions/new?category_id=19113743) if a duplicate doesn't already exist.
+- Open a [new discussion](https://github.com/aquasecurity/pipeline-parser/discussions/new?category_id=19113743) if a duplicate doesn't already exist.
 - Remember users might be searching for your discussion in the future, so please give it a meaningful title to helps others.
 - Clearly define the use case, using concrete examples. For example, I type `this` and pipeline-parser does `that`.
 - If you would like to include a technical design for your feature please feel free to do so.
@@ -35,7 +35,7 @@ We also use the GitHub discussions to track feature requests. If you have an ide
 
 We also use the GitHub discussions to Q&A.
 
-- Open a [new discussion](https://github.com/argonsecurity/pipeline-parser/discussions/new) if a duplicate doesn't already exist.
+- Open a [new discussion](https://github.com/aquasecurity/pipeline-parser/discussions/new) if a duplicate doesn't already exist.
 - Remember users might be searching for your discussion in the future, so please give it a meaningful title to helps others.
 
 ### Pull Requests
@@ -43,7 +43,7 @@ We also use the GitHub discussions to Q&A.
 We welcome pull requests!
 
 - Every Pull Request should have an associated Issue, unless you are fixing a trivial documentation issue.
-- We will not accept changes to LICENSE, NOTICE or CONTRIBUTING from outside the Argon Security team. Please raise an Issue if you believe there is a problem with any of these files.
+- We will not accept changes to LICENSE, NOTICE or CONTRIBUTING from outside the Aqua Security team. Please raise an Issue if you believe there is a problem with any of these files.
 - Your PR is more likely to be accepted if it focuses on just one change.
 - Describe what the PR does. There's no convention enforced, but please try to be concise and descriptive. Treat the PR description as a commit message. Titles that start with "fix"/"add"/"improve"/"remove" are good examples.
 - Please add the associated Issue in the PR description.

@@ -4,11 +4,11 @@ import (
 	"regexp"
 	"strings"
 
-	loadersCommonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	parserUtils "github.com/argonsecurity/pipeline-parser/pkg/parsers/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	loadersCommonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	parserUtils "github.com/aquasecurity/pipeline-parser/pkg/parsers/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 var (

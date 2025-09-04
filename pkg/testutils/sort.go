@@ -3,7 +3,7 @@ package testutils
 import (
 	"sort"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 func SortParameters(params []models.Parameter) {

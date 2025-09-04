@@ -3,10 +3,10 @@ package models
 import (
 	"strings"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	loadersUtils "github.com/argonsecurity/pipeline-parser/pkg/loaders/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	loadersUtils "github.com/aquasecurity/pipeline-parser/pkg/loaders/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"gopkg.in/yaml.v3"
 )
 

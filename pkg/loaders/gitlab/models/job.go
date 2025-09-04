@@ -1,11 +1,11 @@
 package models
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/job"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/job"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 	"gopkg.in/yaml.v3"
 )
 

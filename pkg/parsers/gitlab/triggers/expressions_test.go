@@ -3,7 +3,7 @@ package triggers
 import (
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
 )
 
 func TestIsPositive(t *testing.T) {

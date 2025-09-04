@@ -3,10 +3,10 @@ package github
 import (
 	"testing"
 
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func TestParseRunsOnToRunner(t *testing.T) {

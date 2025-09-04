@@ -1,8 +1,8 @@
 package bitbucket
 
 import (
-	bitbucketModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	bitbucketModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 type BitbucketParser struct{}

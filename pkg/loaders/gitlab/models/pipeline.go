@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
 )
 
 type GitlabCIConfiguration struct {

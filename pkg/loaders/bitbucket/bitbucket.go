@@ -1,7 +1,7 @@
 package bitbucket
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
 	"gopkg.in/yaml.v3"
 )
 

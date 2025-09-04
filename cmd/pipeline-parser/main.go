@@ -7,9 +7,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/handler"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/handler"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
 )
@@ -42,7 +42,7 @@ var (
 	organizationDefaultValue = ""
 	organizationUsage        = "The target organization when fetching remote files (used for Azure Pipelines)"
 
-	baseProviderUrl     string
+	baseProviderUrl             string
 	baseProviderUrlFlagName     = "baseProviderUrl"
 	baseProviderUrlDefaultValue = ""
 	baseProviderUrlUsage        = "base api url for the pipeline provider (used for pasring remote templates)"

@@ -1,6 +1,6 @@
 package enhancers
 
-import "github.com/argonsecurity/pipeline-parser/pkg/models"
+import "github.com/aquasecurity/pipeline-parser/pkg/models"
 
 type ImportedPipeline struct {
 	JobName             string

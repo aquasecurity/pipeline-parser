@@ -4,10 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	bbModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/bitbucket/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	bbModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 	"github.com/r3labs/diff/v3"
 )
 

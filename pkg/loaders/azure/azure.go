@@ -1,7 +1,7 @@
 package azure
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
 	"gopkg.in/yaml.v3"
 )
 

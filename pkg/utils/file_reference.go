@@ -3,7 +3,7 @@ package utils
 import (
 	"reflect"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 func CompareFileReferences(a, b *models.FileReference) bool {

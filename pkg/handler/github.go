@@ -1,15 +1,15 @@
 package handler
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	"github.com/argonsecurity/pipeline-parser/pkg/enhancers"
-	githubEnhancer "github.com/argonsecurity/pipeline-parser/pkg/enhancers/github"
-	"github.com/argonsecurity/pipeline-parser/pkg/loaders"
-	githubLoader "github.com/argonsecurity/pipeline-parser/pkg/loaders/github"
-	githubModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/github/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/parsers"
-	githubParser "github.com/argonsecurity/pipeline-parser/pkg/parsers/github"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	"github.com/aquasecurity/pipeline-parser/pkg/enhancers"
+	githubEnhancer "github.com/aquasecurity/pipeline-parser/pkg/enhancers/github"
+	"github.com/aquasecurity/pipeline-parser/pkg/loaders"
+	githubLoader "github.com/aquasecurity/pipeline-parser/pkg/loaders/github"
+	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/parsers"
+	githubParser "github.com/aquasecurity/pipeline-parser/pkg/parsers/github"
 )
 
 type GitHubHandler struct{}

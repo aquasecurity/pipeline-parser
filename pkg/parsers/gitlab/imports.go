@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	gitlabModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	parserUtils "github.com/argonsecurity/pipeline-parser/pkg/parsers/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	gitlabModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models/common"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	parserUtils "github.com/aquasecurity/pipeline-parser/pkg/parsers/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 const (

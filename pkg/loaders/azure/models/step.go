@@ -1,10 +1,10 @@
 package models
 
 import (
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	commonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	loadersUtils "github.com/argonsecurity/pipeline-parser/pkg/loaders/utils"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	commonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	loadersUtils "github.com/aquasecurity/pipeline-parser/pkg/loaders/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 	"gopkg.in/yaml.v3"
 )
 

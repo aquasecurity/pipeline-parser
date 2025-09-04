@@ -3,11 +3,11 @@ package azure
 import (
 	"testing"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/consts"
-	azureModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/azure/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	"github.com/aquasecurity/pipeline-parser/pkg/consts"
+	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func TestParseResource(t *testing.T) {

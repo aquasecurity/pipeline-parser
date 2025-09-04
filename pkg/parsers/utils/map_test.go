@@ -3,10 +3,10 @@ package utils
 import (
 	"testing"
 
-	loadersCommonModels "github.com/argonsecurity/pipeline-parser/pkg/loaders/common/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
-	"github.com/argonsecurity/pipeline-parser/pkg/testutils"
-	"github.com/argonsecurity/pipeline-parser/pkg/utils"
+	loadersCommonModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/common/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/testutils"
+	"github.com/aquasecurity/pipeline-parser/pkg/utils"
 )
 
 func TestParseMapToParameters(t *testing.T) {

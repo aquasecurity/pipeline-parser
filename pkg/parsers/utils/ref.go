@@ -3,7 +3,7 @@ package utils
 import (
 	"regexp"
 
-	"github.com/argonsecurity/pipeline-parser/pkg/models"
+	"github.com/aquasecurity/pipeline-parser/pkg/models"
 )
 
 var (
