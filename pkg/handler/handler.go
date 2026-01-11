@@ -7,6 +7,7 @@ import (
 	"github.com/aquasecurity/pipeline-parser/pkg/loaders"
 	azureModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/azure/models"
 	bitbucketModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/bitbucket/models"
+	circleciModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/circleci/models"
 	githubModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/github/models"
 	gitlabModels "github.com/aquasecurity/pipeline-parser/pkg/loaders/gitlab/models"
 	"github.com/aquasecurity/pipeline-parser/pkg/models"
@@ -37,6 +38,8 @@ func Handle(data []byte, platform models.Platform, credentials *models.Credentia
 		pipeline, err = handle[azureModels.Pipeline](data, &AzureHandler{}, credentials, organization, baseUrl, nil)
 	case consts.BitbucketPlatform:
 		pipeline, err = handle[bitbucketModels.Pipeline](data, &BitbucketHandler{}, credentials, organization, baseUrl, nil)
+	case consts.CircleCIPlatform:
+		pipeline, err = handle[circleciModels.Config](data, &CircleCIHandler{}, credentials, organization, baseUrl, nil)
 	default:
 		return nil, consts.NewErrInvalidPlatform(platform)
 	}
