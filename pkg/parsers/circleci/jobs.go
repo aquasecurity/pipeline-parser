@@ -26,7 +26,7 @@ func parseJobs(jobs map[string]*circleciModels.Job) ([]*models.Job, error) {
 		// Create a copy of jobName to avoid pointer sharing issues in loops
 		jobID := jobName
 		jobNameCopy := jobName
-		
+
 		parsedJob := &models.Job{
 			ID:            &jobID,
 			Name:          &jobNameCopy,
@@ -71,14 +71,16 @@ func parseJobRunner(job *circleciModels.Job) *models.Runner {
 	// Parse Docker executor
 	if job.Docker != nil && len(job.Docker) > 0 {
 		docker := job.Docker[0] // Use first docker image
-		runner.Type = utils.GetPtr("docker")
-		runner.DockerMetadata = &models.DockerMetadata{
-			Image: &docker.Image,
+		if docker != nil {
+			runner.Type = utils.GetPtr("docker")
+			runner.DockerMetadata = &models.DockerMetadata{
+				Image: &docker.Image,
+			}
+			if docker.Auth != nil {
+				// Store auth info if needed
+			}
+			return runner
 		}
-		if docker.Auth != nil {
-			// Store auth info if needed
-		}
-		return runner
 	}
 
 	// Parse Machine executor
@@ -112,4 +114,3 @@ func parseJobRunner(job *circleciModels.Job) *models.Runner {
 
 	return runner
 }
-

@@ -171,7 +171,7 @@ func parseRunStep(runData interface{}, fileRef *models.FileReference) *models.St
 	// If run is a map, parse the configuration
 	if runMap, ok := runData.(map[string]interface{}); ok {
 		runStep := &circleciModels.RunStepConfig{}
-		
+
 		// Convert map to RunStepConfig
 		if command, ok := runMap["command"].(string); ok {
 			runStep.Command = command
@@ -205,8 +205,8 @@ func parseRunStep(runData interface{}, fileRef *models.FileReference) *models.St
 			}
 		}
 
-		// Parse shell type
-		if runStep.Shell != nil {
+		// Parse shell type - only if step.Shell exists
+		if step.Shell != nil && runStep.Shell != nil {
 			if shellStr, ok := runStep.Shell.(string); ok {
 				step.Shell.Type = &shellStr
 			}
@@ -233,4 +233,3 @@ func detectVersionType(version string) models.VersionType {
 	}
 	return models.Latest
 }
-
