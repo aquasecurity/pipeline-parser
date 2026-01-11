@@ -19,6 +19,7 @@ Pipeline Parser is Aqua's solution for parsing and analyzing pipeline files of p
 | GitLab CI
 | Azure Pipelines
 | Bitbucket Pipelines
+| CircleCI
 
 ## Usage
 
@@ -77,6 +78,12 @@ pipeline-parser -p azure .azure-pipelines.yml
 
 ```bash
 pipeline-parser -p bitbucket .bitbucket-pipelines.yml
+```
+
+#### Parse CircleCI yaml
+
+```bash
+pipeline-parser -p circleci .circleci/config.yml
 ```
 
 #### Parse multiple files in one execution
