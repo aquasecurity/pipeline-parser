@@ -11,7 +11,6 @@ type Step struct {
 	FileReference *models.FileReference
 }
 
-// GetStep returns the step data (string or map)
 func (s *Step) GetStep() interface{} {
 	return s.step
 }
@@ -19,13 +18,11 @@ func (s *Step) GetStep() interface{} {
 func (s *Step) UnmarshalYAML(node *yaml.Node) error {
 	s.FileReference = loadersUtils.GetFileReference(node)
 
-	// If it's a string, store it directly
 	if node.Tag == "!!str" {
 		s.step = node.Value
 		return nil
 	}
 
-	// If it's a map, decode it as a map
 	if node.Tag == "!!map" {
 		var stepMap map[string]interface{}
 		if err := node.Decode(&stepMap); err != nil {
@@ -35,7 +32,6 @@ func (s *Step) UnmarshalYAML(node *yaml.Node) error {
 		return nil
 	}
 
-	// Try to decode as generic interface{}
 	var stepData interface{}
 	if err := node.Decode(&stepData); err != nil {
 		return err
