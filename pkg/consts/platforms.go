@@ -7,6 +7,7 @@ const (
 	GitLabPlatform    models.Platform = "gitlab"
 	AzurePlatform     models.Platform = "azure"
 	BitbucketPlatform models.Platform = "bitbucket"
+	CircleCIPlatform  models.Platform = "circleci"
 )
 
 var Platforms = []models.Platform{
@@ -14,4 +15,5 @@ var Platforms = []models.Platform{
 	GitLabPlatform,
 	AzurePlatform,
 	BitbucketPlatform,
+	CircleCIPlatform,
 }
