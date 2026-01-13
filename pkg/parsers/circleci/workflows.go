@@ -29,7 +29,6 @@ func parseWorkflows(workflows map[string]*circleciModels.Workflow) *models.Trigg
 				trigger.Schedules = &schedules
 			}
 
-			// Parse filters
 			if schedule.Filters != nil {
 				if schedule.Filters.Branches != nil {
 					trigger.Branches = &models.Filter{
@@ -68,4 +67,3 @@ func parseWorkflows(workflows map[string]*circleciModels.Workflow) *models.Trigg
 		Triggers: triggers,
 	}
 }
-
